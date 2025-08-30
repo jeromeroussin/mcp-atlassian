@@ -1,4 +1,4 @@
-# Version control
+Makefile
 .git
 .gitignore
 .github
@@ -51,3 +51,4 @@ docs/
 *.tmp
 *.bak
 *.backup
+*.lock

@@ -61,7 +61,7 @@ def get_available_services() -> dict[str, bool | None]:
                 )
         if not confluence_is_setup and os.getenv(
             "ATLASSIAN_OAUTH_ENABLE", ""
-        ).lower() in ("true","1","yes"):
+        ).lower() in ("true", "1", "yes"):
             confluence_is_setup = True
             logger.info(
                 "Using Confluence minimal OAuth configuration - expecting user-provided tokens via headers"

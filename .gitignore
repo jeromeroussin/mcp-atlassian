@@ -40,6 +40,7 @@ venv.bak/
 .uv/
 .uvx/
 .venv.uv/
+uv.lock
 
 # IDEs and editors
 .idea/
@@ -47,6 +48,7 @@ venv.bak/
 *.swp
 *.swo
 *~
+*.lock
 
 # OS specific
 .DS_Store
